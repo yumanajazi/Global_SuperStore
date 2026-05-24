@@ -1,7 +1,7 @@
 # 🌍 Global Super Store Data Analysis
 
 <p align="center">
-  <img src="./Global Superstore_Analysis.png" width="1000">
+  <img src="./Global SuperStore-BI.png" width="1000">
 </p>
 
 ---
