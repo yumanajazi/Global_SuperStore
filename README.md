@@ -1,45 +1,143 @@
-# Global_SuperStore
+# 🌍 Global Super Store Data Analysis
 
-Global Super Store: Operational Audit & Profitability Analysis
-Supply Chain Intelligence | Power BI & Tableau Performance Dashboard
+<p align="center">
+  <img src="./Global Superstore_Analysis.png" width="1000">
+</p>
 
-1. Project Overview
-This project involves an end-to-end analysis of a multi-national retail dataset comprising over 51,000 transactions across various global markets. The objective was to move beyond simple sales tracking to identify operational bottlenecks and geographic profit leakage. By auditing the relationship between sales volume, shipping costs, and discount rates, this analysis provides actionable insights for optimizing global logistics and inventory management.
+---
 
-2. Key Performance Indicators (KPIs)
+# 📌 Project Overview
 
-The dashboard prioritizes high-level executive metrics to assess overall business health:
-Total Sales ($12.6M): Total gross revenue generated across all global territories.
-Total Profit ($1.47M): The net bottom line after accounting for costs and discounts, reflecting a ~11.6% profit margin.
-Total Orders (51,290): The volume of customer transactions, used to gauge market demand and fulfillment load.
-Overall Discount (14.29%): A critical "Risk Metric" used to monitor how aggressive pricing strategies affect net profitability.
+This project presents a comprehensive **Global Super Store Data Analysis Dashboard** built using **Tableau** to analyze worldwide sales performance, profits, orders, and regional business trends.
 
-3. Data Visualization & Strategic Logic
+The dashboard converts raw retail data into meaningful visual insights that help businesses understand:
+- Market performance
+- Regional sales distribution
+- Profitability
+- Sales growth trends
+- Customer purchasing patterns
 
-A. Profit Contribution by Category
-Description: A breakdown of profitability across Furniture, Office Supplies, and Technology.
-BA Logic: Applied the 80/20 Rule to identify which categories drive the bulk of the profit vs. those that are "high-revenue, low-margin". This enables targeted inventory adjustments to favor high-contribution items like Technology.
+Think of it as a business radar system scanning the commercial universe 📡📈
 
-B. Sales & Profit by Market (APAC, EU, US, LATA, EMEA)
-Description: Comparative bar charts showing regional performance.
-BA Logic: This provides Geographic Sensitivity Analysis. For instance, while APAC shows the highest sales, the logic focuses on whether the Profit scales proportionally, helping identify regions where high shipping costs or local taxes might be eroding gains.
+---
 
-C. Year-on-Year (YoY) Sales Trends
-Description: A time-series area chart tracking growth from 2011 to 2014.
-BA Logic: Used for Seasonality Forecasting. By identifying Q4 spikes, the business can optimize staffing and logistics at the Gomti Nagar hub or similar distribution points ahead of peak demand periods.
+# 🎯 Project Objectives
 
-D. Regional Order Distribution (GIS Mapping)
-Description: Geographic visualization of order density.
-BA Logic: Simplifies Supply Chain Visibility. It identifies "Underperforming Zones" where sales are high but market penetration remains shallow, suggesting a need for localized marketing or better regional distribution centers.
+- Analyze global sales performance
+- Compare profits across markets
+- Track regional order distribution
+- Monitor quarterly sales growth
+- Identify high-performing categories and regions
+- Enable data-driven business decisions
 
-4. Technical Stack
-Tools: Power BI / Tableau Desktop.
-Skills Demonstrated: Data Normalization, Star Schema Modeling, DAX (Data Analysis Expressions), and Drill-down Reporting.
-Logical Framework: First Principles Thinking—breaking down global revenue into granular components of cost, volume, and geography to rebuild a more efficient business model.
+---
 
-5. Key Insights & Recommendations
-Profitability vs. Volume: The Technology category represents the highest profit margin despite lower order volume compared to Office Supplies, suggesting a "Quality over Quantity" sales strategy.
+# 🛠️ Tools & Technologies Used
 
-Market Expansion: APAC and EU are the primary growth engines; however, the rising discount rates in LATA (Latin America) indicate a need for more disciplined pricing controls.
+| Tool | Purpose |
+|------|---------|
+| Tableau | Dashboard & Data Visualization |
+| Excel / CSV | Data Source |
+| Data Analytics | Business Intelligence |
+| Data Cleaning | Data Preparation |
 
-Logistics Optimization: High shipping costs on certain sub-categories indicate that consolidating shipments or renegotiating carrier contracts could recover up to 3–5% of lost margins.
+---
+
+# 📊 Dashboard Features
+
+---
+
+## 📌 KPI Cards
+
+The dashboard highlights key business metrics:
+
+| KPI | Value |
+|---|---|
+| Total Sales | 12,642,502 |
+| Total Profit | 1,467,457 |
+| Total Orders | 51,290 |
+
+---
+
+## 🌎 Sales by Market
+
+Displays total sales generated across different global markets:
+
+- APAC
+- EU
+- US
+- LATAM
+- Africa
+- EMEA
+- Canada
+
+### Key Insight
+APAC generated the highest sales contribution among all markets.
+
+---
+
+## 📦 Region Wise Orders
+
+Analyzes sales/orders distribution across different regions including:
+
+- Africa
+- Canada
+- Caribbean
+- Central Asia
+- EMEA
+- LATAM
+
+### Purpose
+Helps identify:
+- High-demand regions
+- Underperforming regions
+- Market expansion opportunities
+
+---
+
+## 💰 Profit by Market
+
+Visual representation of profit generated by each market.
+
+### Key Findings
+- APAC produced the highest profit
+- EU followed closely behind
+- Canada showed comparatively lower profitability
+
+---
+
+## 📈 Sales Trends
+
+Quarter-wise sales trend analysis displaying business growth over time.
+
+### Benefits
+- Understand seasonal demand
+- Track growth trajectory
+- Forecast future performance
+
+---
+
+# 🎛️ Interactive Filters
+
+The dashboard includes dynamic filters for detailed analysis:
+
+| Filter | Purpose |
+|---|---|
+| Category | Product category selection |
+| Year of Order Date | Time-based filtering |
+| Sub-Category | Detailed product segmentation |
+| Region | Regional analysis |
+
+---
+
+# 📂 Project Structure
+
+```bash
+Global-SuperStore/
+│
+├── README.md
+├── Global Superstore_Analysis.png
+│
+├── Global_Superstore_Data.xlsx
+│
+├── Global_SuperStore_Dashboard.twb
